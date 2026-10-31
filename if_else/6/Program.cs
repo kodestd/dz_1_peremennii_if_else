@@ -1,10 +1,10 @@
-﻿public class Program
+public class Program
 {
     public static void Main()
     {
         bool hasTicket = true;
         bool blackList = false;
-        if (hasTicket == true && blackList == false)
+        if (hasTicket && !blackList)
         {
             Console.WriteLine("Проход Разрешен");
         }
