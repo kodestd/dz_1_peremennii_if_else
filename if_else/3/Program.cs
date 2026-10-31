@@ -3,7 +3,7 @@
 	public static void Main()
 	{
 		double temperature = 15.5;
-		if (temperature < 10)
+		if (temperature <= 10)
 		{
 			Console.WriteLine("Холодно");
 		}
